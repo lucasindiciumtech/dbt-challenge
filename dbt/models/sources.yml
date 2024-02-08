@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: sqlite
+    database: "main"
+    schema: "main"
+    tables:
+      - name: customers
+      - name: order_items
+      - name: orders
+      - name: products

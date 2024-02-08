@@ -1,0 +1,11 @@
+product_id,name,category,price
+101,Product A,Electronics,100
+102,Product B,Electronics,150
+103,Product C,Home,200
+104,Product D,Home,250
+105,Product E,Fashion,75
+106,Product F,Fashion,85
+107,Product G,Books,90
+108,Product H,Books,120
+109,Product I,Toys,60
+110,Product J,Toys,70

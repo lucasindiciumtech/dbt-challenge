@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,status,total_amount
+1,1,2024-01-01,Shipped,100
+2,2,2024-01-03,Shipped,200
+3,3,2024-01-05,Cancelled,150
+4,2,2024-01-07,Shipped,300
+5,1,2024-01-09,Shipped,250
+6,4,2024-01-11,Returned,180
+7,5,2024-01-13,Shipped,220
+8,3,2024-01-15,Shipped,140
+9,2,2024-01-17,Cancelled,200
+10,4,2024-01-19,Shipped,190
