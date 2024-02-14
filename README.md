@@ -7,9 +7,12 @@ Construir um data mart que forneça uma visão agregada do desempenho de vendas 
 
 ## Modelo de Dados:
 Tabelas Fonte: orders, order_items, products.
+
 Transformações:
 Filtrar apenas orders com status "Shipped".
+
 Realizar um join entre order_items e orders para garantir que apenas itens de pedidos enviados sejam considerados.
+
 Agregar dados ao nível de produto, somando a quantidade vendida e a receita total.
 Calcular o preço médio de venda por produto.
 
@@ -21,8 +24,11 @@ Desenvolver um data mart que segmente os clientes com base no valor total de com
 
 # Modelo de Dados:
 Tabelas Fonte: customers, orders.
+
 Transformações:
+
 Filtrar orders com status "Shipped".
+
 Agregar dados ao nível de cliente, calculando o valor total de compras e o número total de pedidos.
 Segmentar clientes com base em critérios pré-definidos (por exemplo, VIPs: >$500 em compras e mais de 5 pedidos).
 
