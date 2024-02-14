@@ -1,3 +1,4 @@
+# Setup
 ``` pip install -r requirements.txt && cd dbt && dbt seed```
 
 # Desafio 1: Data Mart de Desempenho de Vendas
@@ -24,3 +25,10 @@ Transformações:
 Filtrar orders com status "Shipped".
 Agregar dados ao nível de cliente, calculando o valor total de compras e o número total de pedidos.
 Segmentar clientes com base em critérios pré-definidos (por exemplo, VIPs: >$500 em compras e mais de 5 pedidos).
+
+
+# Dicas
+- Utilize o dbt para criar os modelos de dados e as transformações necessárias.
+- Extensões ou programas para visualizar os dados dentro do banco de dados são permitidos.
+- Utilize a metodologia de modelagem de dados que achar mais adequada para o problema.
+- Organize seu projeto utilizando a estrutura padrão sugerida pelo dbt (https://docs.getdbt.com/best-practices/how-we-structure/2-staging).
